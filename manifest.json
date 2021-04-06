@@ -12,6 +12,7 @@
   "permissions": [
     "https://bitclout.com/*"
   ],
+  "web_accessible_resources": ["src/inject/inject.css"],
   "content_scripts": [
     {
       "matches": [

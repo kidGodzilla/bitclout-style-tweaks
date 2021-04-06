@@ -16,6 +16,8 @@ https://bitclout.com/u/kidGodzilla
 
 ## Installation
 
+### Google Chrome (also compatible with Edge, Opera)
+
 1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
 2. Navigate to `Code` → `Download Zip` to download this to your Desktop
 3. Unzip the folder somewhere, and leave it there. If you delete it, the extension stops working.
@@ -23,9 +25,20 @@ https://bitclout.com/u/kidGodzilla
 5. Enable Developer Mode (toggle in upper right corner of screen)
 6. Click `Load Unpacked` (extension) in the top left corner, and select the extension directory
 
+
+### Firefox
+
+1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
+2. Navigate to `Code` → `Download Zip` to download this to your Desktop
+3. Unzip the folder somewhere, and leave it there. If you delete it, the extension stops working.
+4. Navigate to `about:debugging#/runtime/this-firefox` in your browser. 
+5. Click `Load Temporary Addon` & then select the `manifest.json` in the folder you just created
+
+
 That's it! 
 
 Remember, Updates don't occur automatically when you install the extension from source.
+
 
 
 ## Aspirations
