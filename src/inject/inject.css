@@ -76,6 +76,19 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
     opacity: 0;
 }
 
+/* Fix alignment */
+    .global__content__width, .global__content__inner {
+        max-width: 875px !important;
+    }
+    #searchBarRoot { background: transparent !important; }
+    .global__top-bar__height.align-items-center.border-bottom.border-color-grey.ng-star-inserted {    
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    textarea {
+        line-height: 1.4 !important;
+    }
+
 /* Fix janky dropdown menu for account selector */
     #changeAccountSelectorRoot {
         padding: 0 !important;
@@ -184,7 +197,6 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
     textarea {
         border-color: #444 !important;
         background: #111 !important;
-        line-height: 1.4 !important;
         color: #eee !important;
     }
     textarea.form-control, textarea.form-control:focus {
@@ -279,14 +291,6 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
     .global__desktop .global__content__inner {
         border-right: 1px solid #222 !important;
         border-left: 1px solid #222 !important;
-    }
-    .global__content__width, .global__content__inner {
-        max-width: 875px !important;
-    }
-    #searchBarRoot { background: transparent !important; }
-    .global__top-bar__height.align-items-center.border-bottom.border-color-grey.ng-star-inserted {    
-        padding-bottom: 15px;
-        padding-top: 15px;
     }
     .messages-thread__border-radius.border.border-color-grey {
         border-color: transparent !important;
