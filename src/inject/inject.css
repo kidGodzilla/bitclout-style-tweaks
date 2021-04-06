@@ -102,6 +102,9 @@ i.far.fa-md.align-middle {
 textarea {
   line-height: 1.4 !important;
 }
+feed-post-image-modal > div {
+  text-align: center;
+}
 
 /* Fix janky dropdown menu for account selector */
 #changeAccountSelectorRoot {
