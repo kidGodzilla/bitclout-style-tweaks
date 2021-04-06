@@ -71,16 +71,16 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
 
 
 /* Experimental Dark Mode */
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body, .buy-bitclout__box-label-adjustment {
         color: rgba(255, 255, 255, 0.87) !important;
         background-color: #212529 !important;
         background-color: #1a1b22 !important;
     }
-    .text-grey5 {
+    .text-grey5, .text-muted, .text-grey6 {
         color: #dcdcdc !important;
     }
-    .background-color-light-grey {
+    .background-color-light-grey, .bg-light, .bg-light.text-grey6 {
         background-color: #111 !important;
     }
     .right-bar-creators__balance-box, .holdings__divider {
@@ -152,7 +152,7 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
     #changeAccountSelectorRoot {
         background: #111 !important;
     }
-    .border-color-grey, .border-bottom, .no-gutters.border-bottom, .border-bottom.border-color-grey, 
+    .border-color-grey, .border-bottom, .justify-content-between.border-bottom, .no-gutters.border-bottom, .border-bottom.border-color-grey, 
     .messages-thread__desktop-column, .messages-inbox__desktop-column, .global__top-bar__height {
         border-top-color: #222 !important;
         border-color: #222 !important;
@@ -191,4 +191,4 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
     .search-bar__selected-color { 
         background: #191919 !important;
     }
-}*/
+}
