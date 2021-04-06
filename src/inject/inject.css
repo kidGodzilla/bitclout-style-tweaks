@@ -138,6 +138,11 @@ textarea {
   padding-bottom: 10px !important;
 }
 
+div.d-flex.justify-content-center.align-items-center > a.cursor-pointer.fs-15px.text-grey5 ~ div.ml-5px.p-5x.fs-15px {
+  background-color: #FE3537 !important;
+  color: #fff !important;
+}
+
 /* Experimental Dark Mode */
 @media (prefers-color-scheme: dark) {
   body,
