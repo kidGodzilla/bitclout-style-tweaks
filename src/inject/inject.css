@@ -147,6 +147,7 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
     }
     textarea.form-control, textarea.form-control:focus {
         background-color: transparent !important;
+        border-color: transparent !important;
     }
     #changeAccountSelectorRoot {
         background: #111 !important;
