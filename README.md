@@ -1,6 +1,8 @@
 # bitclout-style-tweaks
 
-A collection of style tweaks for the BitClout UI
+A collection of tiny style tweaks for the BitClout UI
+
+![Screenshot](/screenshot.jpg?raw=true "Screenshot (default)")
 
 TLDR; As a designer, the monospaced font being used "stylistically" annoys the bejeesus out of me, and I created this chrome extension to turn it off, and decided to make a few more tweaks along the way, to improve the user experience of other early BitClout users.
 
@@ -31,6 +33,14 @@ Remember, Updates don't occur automatically when you install the extension from 
 ## Aspirations
 
 I'd like to do a dark mode theme, but after exploring the structure of the CSS in detail for a few minutes, it just doesn't seem incredibly stable. A dark mode theme is going to be fiddly / hacky, might be something I delay doing until a version 2.
+
+## Dark Mode (Experimental)
+
+![Screenshot dark](/screenshot-dark.jpg?raw=true "Screenshot (dark)")
+
+I've put together an MVP of "dark mode". A lot of the values are too generic (`#111, #222, etc.`) – I'm just roughing it out. Ideally, these would be a bit tighter and a bit more nuanced.
+
+You can uncomment the last big chunk of CSS in `src/inject/inject.css` if you want to enable it!
 
 
 ## Todo
