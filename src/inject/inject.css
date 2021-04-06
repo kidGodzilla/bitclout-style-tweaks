@@ -13,7 +13,9 @@ body, html {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
-
+.justify-content-center .font-weight-semibold {
+    color: #eee !important;
+}
 
 /* Use a tighter right sidebar to add more symmetry */
 .global__sidebar__width, .global__sidebar__inner {
@@ -34,6 +36,11 @@ body, html {
 }
 .change-account-selector__hover ~ div {
 	margin-top: 5px;
+}
+
+.global__top-bar {
+    padding-right: 18px !important;
+    padding-left: 18px !important;
 }
 
 /* Nicer inline buy buttons */
@@ -68,6 +75,40 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
 .global__nav__inner img {
     opacity: 0;
 }
+
+/* Fix janky dropdown menu for account selector */
+    #changeAccountSelectorRoot {
+        padding: 0 !important;
+        position: relative;
+    }
+    #changeAccountSelectorRoot > div:nth-child(even) {
+        border: 1px solid transparent !important;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        background: #f8f8f8;
+        width: 185px;
+        top: 37px;
+        left: 0;
+    }
+    .change-account-selector__shadow {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+        box-shadow: initial !important;
+    }
+    .change-account-selector__hover:hover {
+        color: #111 !important;
+    }
+    #changeAccountSelectorRoot .justify-content-between, .change-account-selector__hover {
+        padding-left: 20px !important;
+    }
+    .change-account-selector__hover {
+        padding-bottom: 10px !important;
+        padding-top: 10px !important;
+    }
+    #changeAccountSelectorRoot .pt-10px {
+        padding-bottom: 10px !important;
+    }
 
 
 /* Experimental Dark Mode */
@@ -178,9 +219,14 @@ i.fas.fa-md.align-middle, i.far.fa-md.align-middle {
         color: #eee !important;
         border-color: #eee !important;
     }
+
+    #changeAccountSelectorRoot > div:nth-child(even) {
+        background: #111;
+    }
     .change-account-selector__hover:hover {
         color: #111 !important;
     }
+    
     .feed-post__container .roboto-regular {
         color: #eee !important;
     }
