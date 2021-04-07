@@ -18,6 +18,11 @@ https://bitclout.com/u/kidGodzilla
 
 ### Google Chrome (also compatible with Edge, Opera)
 
+Chrome Web Store: *Soon!*
+
+
+**Manual Installation:**
+
 1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
 2. Navigate to `Code` → `Download Zip` to download this to your Desktop
 3. Unzip the folder somewhere, and leave it there. If you delete it, the extension stops working.
@@ -27,6 +32,11 @@ https://bitclout.com/u/kidGodzilla
 
 
 ### Firefox
+
+Firefox addon: https://addons.mozilla.org/en-US/firefox/addon/bitclout-dark-mode-ui-tweaks/
+
+
+**Manual Installation:**
 
 1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
 2. Navigate to `Code` → `Download Zip` to download this to your Desktop
