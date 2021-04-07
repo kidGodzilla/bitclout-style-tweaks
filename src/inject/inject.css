@@ -291,7 +291,7 @@ div.d-flex.justify-content-center.align-items-center > a.cursor-pointer.fs-15px.
     color: #111 !important;
   }
 
-  .feed-post__container .roboto-regular {
+  .feed-post__container .roboto-regular, manage-follows .roboto-regular {
     color: #eee !important;
   }
   .search-bar__results-dropdown,
