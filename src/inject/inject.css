@@ -157,6 +157,9 @@ div.d-flex.justify-content-center.align-items-center > a.cursor-pointer.fs-15px.
   background-color: #FE3537 !important;
   color: #fff !important;
 }
+.message__min-height, .message__sender-bubble-color {
+    word-break: break-word;
+}
 
 /* Experimental Dark Mode */
 @media (prefers-color-scheme: dark) {
