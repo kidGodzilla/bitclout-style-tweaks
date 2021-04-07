@@ -1,15 +1,14 @@
 {
-  "name": "BitClout Style Tweaks",
-  "version": "0.0.2",
+  "name": "BitClout Dark Mode & Style Tweaks",
+  "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Enhances the BitClout UI, in small ways. Requires zero permissions, only modifies CSS.",
+  "description": "Enhances the BitClout UI, in small ways. Adds dark mode to match system preferences. Requires zero permissions, only modifies CSS.",
   "homepage_url": "https://bitclout.com/u/kidgodzilla",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "web_accessible_resources": ["src/inject/inject.css"],
   "content_scripts": [
     {
       "matches": [
