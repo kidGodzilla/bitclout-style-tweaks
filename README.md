@@ -24,7 +24,7 @@ Chrome Web Store: *Soon!*
 1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
 2. Navigate to `Code` → `Download Zip` to download this to your Desktop
 3. Unzip the folder somewhere, and leave it there. If you delete it, the extension stops working.
-4. Navigate to [chrome://extensions/](chrome://extensions/) in your browser
+4. Navigate to `chrome://extensions/` in your browser
 5. Enable Developer Mode (toggle in upper right corner of screen)
 6. Click `Load Unpacked` (extension) in the top left corner, and select the extension directory
 
@@ -39,7 +39,7 @@ Firefox addon: https://addons.mozilla.org/en-US/firefox/addon/bitclout-dark-mode
 1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
 2. Navigate to `Code` → `Download Zip` to download this to your Desktop
 3. Unzip the folder somewhere, and leave it there. If you delete it, the extension stops working.
-4. Navigate to [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox) in your browser. 
+4. Navigate to `about:debugging#/runtime/this-firefox` in your browser. 
 5. Click `Load Temporary Addon` & then select the `manifest.json` in the folder you just created
 
 
