@@ -105,6 +105,17 @@ textarea {
 feed-post-image-modal > div {
   text-align: center;
 }
+right-bar-creators-leaderboard .link--unstyled > div {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 126px;
+    overflow: hidden;
+    position: relative;
+    top: -1px;
+}
+.right-bar-creators-leaderboard__creator-avatar {
+    top: 0 !important;
+}
 
 /* Fix janky dropdown menu for account selector */
 #changeAccountSelectorRoot {
@@ -303,17 +314,6 @@ div.d-flex.justify-content-center.align-items-center > a.cursor-pointer.fs-15px.
   }
   .creator-leaderboard__load-more:hover {
     background-color: #111 !important;
-  }
-  right-bar-creators-leaderboard .link--unstyled > div {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: 126px;
-    overflow: hidden;
-    position: relative;
-    top: -1px;
-  }
-  .right-bar-creators-leaderboard__creator-avatar {
-    top: 0 !important;
   }
   /*creator-profile-top-card .border-color-grey.light-grey-divider, */
   /*.global__top-bar__height.border-bottom,*/
