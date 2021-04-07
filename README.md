@@ -11,36 +11,31 @@ TLDR; The monospaced font being used "stylistically" in place of a proportional 
 
 If you want to follow along for updates, I'm [kidGodzilla](https://bitclout.com/u/kidGodzilla) on BitClout (and [kidgdzilla](https://twitter.com/kidgdzilla) on Twitter)
 
-
-## Installation
-
-### Google Chrome (also compatible with Edge, Opera)
+### Installation via Google Chrome (also compatible with Edge, Opera)
 
 Chrome Web Store: *Soon!*
 
-
-**Manual Installation:**
-
-1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
-2. Navigate to `Code` → `Download Zip` to download this to your Desktop
-3. Unzip the folder somewhere, and leave it there. If you delete it, the extension stops working.
-4. Navigate to `chrome://extensions/` in your browser
-5. Enable Developer Mode (toggle in upper right corner of screen)
-6. Click `Load Unpacked` (extension) in the top left corner, and select the extension directory
-
-
-### Firefox
+### Installation via Firefox Addon
 
 Firefox addon: https://addons.mozilla.org/en-US/firefox/addon/bitclout-dark-mode-ui-tweaks/
 
 
-**Manual Installation:**
+## Manual Installation
 
-1. Download the code for this extension from https://github.com/kidGodzilla/bitclout-style-tweaks
-2. Navigate to `Code` → `Download Zip` to download this to your Desktop
-3. Unzip the folder somewhere, and leave it there. If you delete it, the extension stops working.
-4. Navigate to `about:debugging#/runtime/this-firefox` in your browser. 
-5. Click `Load Temporary Addon` & then select the `manifest.json` in the folder you just created
+[Download this extension as zip](https://github.com/kidGodzilla/bitclout-style-tweaks/archive/refs/heads/main.zip)
+
+Then, **unzip** the folder somewhere, and leave it there. If you delete it, the extension stops working.
+
+**Google Chrome:**
+
+1. Navigate to `chrome://extensions/` in your browser
+2. Enable Developer Mode (toggle in upper right corner of screen)
+3. Click `Load Unpacked` (extension) in the top left corner, and select the extension directory
+
+**Firefox:**
+
+1. Navigate to `about:debugging#/runtime/this-firefox` in your browser. 
+2. Click `Load Temporary Addon` & then select the `manifest.json` in the folder you just created
 
 
 That's it! 
