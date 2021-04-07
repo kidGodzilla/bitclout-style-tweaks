@@ -15,7 +15,7 @@ If you want to follow along for updates, I'm [kidGodzilla](https://bitclout.com/
 
 ## Installation via Google Chrome (also compatible with Edge, Opera)
 
-**Chrome Web Store:** *Soon! See instructions below for manual installation*
+**Chrome Web Store:** https://chrome.google.com/webstore/detail/bitclout-dark-mode-style/lpagllogkbeamapkocpjcgmieehpkhlh
 
 
 ## Installation via Firefox Addon
