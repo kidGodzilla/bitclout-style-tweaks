@@ -11,13 +11,16 @@ TLDR; The monospaced font being used "stylistically" in place of a proportional 
 
 If you want to follow along for updates, I'm [kidGodzilla](https://bitclout.com/u/kidGodzilla) on BitClout (and [kidgdzilla](https://twitter.com/kidgdzilla) on Twitter)
 
-### Installation via Google Chrome (also compatible with Edge, Opera)
+---
 
-Chrome Web Store: *Soon!*
+## Installation via Google Chrome (also compatible with Edge, Opera)
 
-### Installation via Firefox Addon
+**Chrome Web Store:** *Soon! See instructions below for manual installation*
 
-Firefox addon: https://addons.mozilla.org/en-US/firefox/addon/bitclout-dark-mode-ui-tweaks/
+
+## Installation via Firefox Addon
+
+**Firefox addon:** https://addons.mozilla.org/en-US/firefox/addon/bitclout-dark-mode-ui-tweaks/
 
 
 ## Manual Installation
