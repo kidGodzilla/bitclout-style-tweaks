@@ -1,6 +1,6 @@
 {
   "name": "BitClout Dark Mode & Style Tweaks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "Enhances the BitClout UI, in small ways. Adds dark mode to match system preferences. Requires zero permissions, only modifies CSS.",
   "homepage_url": "https://bitclout.com/u/kidgodzilla",
