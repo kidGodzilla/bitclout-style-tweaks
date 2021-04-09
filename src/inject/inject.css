@@ -351,4 +351,10 @@ div.d-flex.justify-content-center.align-items-center > a.cursor-pointer.fs-15px.
   .messages-thread__border-radius.border.border-color-grey {
     border-color: transparent !important;
   }
+  .js-feed-post-hover:hover {
+    background-color: #fafafa05 !important;
+  }
+  .feed-post__container .feed-post__quoted-content:hover {
+    background-color: #f0f0f007 !important;
+  }
 }
